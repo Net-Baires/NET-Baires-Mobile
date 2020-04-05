@@ -39,7 +39,6 @@ target 'NETBaires' do
   pod 'GoogleMaps'
   pod 'Google-Maps-iOS-Utils'
   use_native_modules!
-  pod 'react-native-image-picker', :path => '../node_modules/react-native-image-picker'
 
   
 end

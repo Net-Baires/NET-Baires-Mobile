@@ -2,8 +2,8 @@ import React, { Context, useState, useEffect } from "react";
 import { getData, StoreKeys, removeData } from "app/services/storeService";
 import { storeData } from "../services/storeService";
 import { getMe } from "app/services/profileServices";
-import { MemberDetail } from "models/MeDetail";
 import { setGlobalToken } from "app/services/config";
+import { MemberDetail } from "app/models/MemberDetail";
 // const {Provider,Consumer} = React.createContext<AuthContext>({
 //   token: ""
 // });

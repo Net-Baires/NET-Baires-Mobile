@@ -1,4 +1,5 @@
 apply plugin: "com.android.application"
+apply from: project(':react-native-config').projectDir.getPath() + "/dotenv.gradle"
 
 import com.android.build.OutputFile
 
@@ -26,6 +27,7 @@ android {
     defaultConfig {
         multiDexEnabled true
         applicationId "com.netbaires"
+        resValue "string", "build_config_package", "com.netbaires"
         minSdkVersion rootProject.ext.minSdkVersion
         targetSdkVersion rootProject.ext.targetSdkVersion
         versionCode 9

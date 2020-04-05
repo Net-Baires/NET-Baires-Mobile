@@ -1,11 +1,11 @@
 [
     {
-        "merged": "/Users/German/Documents/Repositorios/NET-Baires/NET-Baires-Mobile/android/app/build/intermediates/res/merged/debug/interpolator_btn_checkbox_unchecked_mtrl_animation_interpolator_0.xml.flat",
-        "source": "/Users/German/.gradle/caches/transforms-2/files-2.1/ff5579b0fd704d100dd064ce62c44ed8/appcompat-1.1.0/res/interpolator/btn_checkbox_unchecked_mtrl_animation_interpolator_0.xml"
-    },
-    {
         "merged": "/Users/German/Documents/Repositorios/NET-Baires/NET-Baires-Mobile/android/app/build/intermediates/res/merged/debug/anim-v21_fragment_fast_out_extra_slow_in.xml.flat",
         "source": "/Users/German/.gradle/caches/transforms-2/files-2.1/0ec6e59787098a39c939c592a8a2f891/fragment-1.2.1/res/anim-v21/fragment_fast_out_extra_slow_in.xml"
+    },
+    {
+        "merged": "/Users/German/Documents/Repositorios/NET-Baires/NET-Baires-Mobile/android/app/build/intermediates/res/merged/debug/interpolator_btn_checkbox_unchecked_mtrl_animation_interpolator_0.xml.flat",
+        "source": "/Users/German/.gradle/caches/transforms-2/files-2.1/ff5579b0fd704d100dd064ce62c44ed8/appcompat-1.1.0/res/interpolator/btn_checkbox_unchecked_mtrl_animation_interpolator_0.xml"
     },
     {
         "merged": "/Users/German/Documents/Repositorios/NET-Baires/NET-Baires-Mobile/android/app/build/intermediates/res/merged/debug/drawable-hdpi-v4_googleg_disabled_color_18.png.flat",
@@ -16,12 +16,12 @@
         "source": "/Users/German/.gradle/caches/transforms-2/files-2.1/ff5579b0fd704d100dd064ce62c44ed8/appcompat-1.1.0/res/drawable-mdpi-v4/abc_popup_background_mtrl_mult.9.png"
     },
     {
-        "merged": "/Users/German/Documents/Repositorios/NET-Baires/NET-Baires-Mobile/android/app/build/intermediates/res/merged/debug/layout_mtrl_alert_dialog_title.xml.flat",
-        "source": "/Users/German/.gradle/caches/transforms-2/files-2.1/cd621d24202984cf4f8f3c0450afdd9a/material-1.1.0/res/layout/mtrl_alert_dialog_title.xml"
-    },
-    {
         "merged": "/Users/German/Documents/Repositorios/NET-Baires/NET-Baires-Mobile/android/app/build/intermediates/res/merged/debug/drawable_mtrl_ic_arrow_drop_down.xml.flat",
         "source": "/Users/German/.gradle/caches/transforms-2/files-2.1/cd621d24202984cf4f8f3c0450afdd9a/material-1.1.0/res/drawable/mtrl_ic_arrow_drop_down.xml"
+    },
+    {
+        "merged": "/Users/German/Documents/Repositorios/NET-Baires/NET-Baires-Mobile/android/app/build/intermediates/res/merged/debug/layout_mtrl_alert_dialog_title.xml.flat",
+        "source": "/Users/German/.gradle/caches/transforms-2/files-2.1/cd621d24202984cf4f8f3c0450afdd9a/material-1.1.0/res/layout/mtrl_alert_dialog_title.xml"
     },
     {
         "merged": "/Users/German/Documents/Repositorios/NET-Baires/NET-Baires-Mobile/android/app/build/intermediates/res/merged/debug/drawable-hdpi-v4_abc_btn_radio_to_on_mtrl_000.png.flat",
@@ -32,12 +32,12 @@
         "source": "/Users/German/.gradle/caches/transforms-2/files-2.1/ff5579b0fd704d100dd064ce62c44ed8/appcompat-1.1.0/res/drawable-xxhdpi-v4/abc_text_select_handle_right_mtrl_dark.png"
     },
     {
-        "merged": "/Users/German/Documents/Repositorios/NET-Baires/NET-Baires-Mobile/android/app/build/intermediates/res/merged/debug/drawable-xxhdpi-v4_common_google_signin_btn_text_dark_normal_background.9.png.flat",
-        "source": "/Users/German/.gradle/caches/transforms-2/files-2.1/4bf5b23dddac7d98d91293f52c029b4d/jetified-play-services-base-16.1.0/res/drawable-xxhdpi-v4/common_google_signin_btn_text_dark_normal_background.9.png"
-    },
-    {
         "merged": "/Users/German/Documents/Repositorios/NET-Baires/NET-Baires-Mobile/android/app/build/intermediates/res/merged/debug/color_material_on_background_disabled.xml.flat",
         "source": "/Users/German/.gradle/caches/transforms-2/files-2.1/cd621d24202984cf4f8f3c0450afdd9a/material-1.1.0/res/color/material_on_background_disabled.xml"
+    },
+    {
+        "merged": "/Users/German/Documents/Repositorios/NET-Baires/NET-Baires-Mobile/android/app/build/intermediates/res/merged/debug/drawable-xxhdpi-v4_common_google_signin_btn_text_dark_normal_background.9.png.flat",
+        "source": "/Users/German/.gradle/caches/transforms-2/files-2.1/4bf5b23dddac7d98d91293f52c029b4d/jetified-play-services-base-16.1.0/res/drawable-xxhdpi-v4/common_google_signin_btn_text_dark_normal_background.9.png"
     },
     {
         "merged": "/Users/German/Documents/Repositorios/NET-Baires/NET-Baires-Mobile/android/app/build/intermediates/res/merged/debug/drawable-xxxhdpi-v4_abc_btn_check_to_on_mtrl_015.png.flat",
@@ -52,20 +52,20 @@
         "source": "/Users/German/.gradle/caches/transforms-2/files-2.1/ff5579b0fd704d100dd064ce62c44ed8/appcompat-1.1.0/res/drawable-xhdpi-v4/abc_scrubber_primary_mtrl_alpha.9.png"
     },
     {
-        "merged": "/Users/German/Documents/Repositorios/NET-Baires/NET-Baires-Mobile/android/app/build/intermediates/res/merged/debug/drawable-ldrtl-hdpi-v17_abc_spinner_mtrl_am_alpha.9.png.flat",
-        "source": "/Users/German/.gradle/caches/transforms-2/files-2.1/ff5579b0fd704d100dd064ce62c44ed8/appcompat-1.1.0/res/drawable-ldrtl-hdpi-v17/abc_spinner_mtrl_am_alpha.9.png"
-    },
-    {
-        "merged": "/Users/German/Documents/Repositorios/NET-Baires/NET-Baires-Mobile/android/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4_abc_scrubber_track_mtrl_alpha.9.png.flat",
-        "source": "/Users/German/.gradle/caches/transforms-2/files-2.1/ff5579b0fd704d100dd064ce62c44ed8/appcompat-1.1.0/res/drawable-xhdpi-v4/abc_scrubber_track_mtrl_alpha.9.png"
+        "merged": "/Users/German/Documents/Repositorios/NET-Baires/NET-Baires-Mobile/android/app/build/intermediates/res/merged/debug/layout_test_toolbar_surface.xml.flat",
+        "source": "/Users/German/.gradle/caches/transforms-2/files-2.1/cd621d24202984cf4f8f3c0450afdd9a/material-1.1.0/res/layout/test_toolbar_surface.xml"
     },
     {
         "merged": "/Users/German/Documents/Repositorios/NET-Baires/NET-Baires-Mobile/android/app/build/intermediates/res/merged/debug/drawable-hdpi-v4_abc_scrubber_control_to_pressed_mtrl_005.png.flat",
         "source": "/Users/German/.gradle/caches/transforms-2/files-2.1/ff5579b0fd704d100dd064ce62c44ed8/appcompat-1.1.0/res/drawable-hdpi-v4/abc_scrubber_control_to_pressed_mtrl_005.png"
     },
     {
-        "merged": "/Users/German/Documents/Repositorios/NET-Baires/NET-Baires-Mobile/android/app/build/intermediates/res/merged/debug/layout_test_toolbar_surface.xml.flat",
-        "source": "/Users/German/.gradle/caches/transforms-2/files-2.1/cd621d24202984cf4f8f3c0450afdd9a/material-1.1.0/res/layout/test_toolbar_surface.xml"
+        "merged": "/Users/German/Documents/Repositorios/NET-Baires/NET-Baires-Mobile/android/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4_abc_scrubber_track_mtrl_alpha.9.png.flat",
+        "source": "/Users/German/.gradle/caches/transforms-2/files-2.1/ff5579b0fd704d100dd064ce62c44ed8/appcompat-1.1.0/res/drawable-xhdpi-v4/abc_scrubber_track_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "/Users/German/Documents/Repositorios/NET-Baires/NET-Baires-Mobile/android/app/build/intermediates/res/merged/debug/drawable-ldrtl-hdpi-v17_abc_spinner_mtrl_am_alpha.9.png.flat",
+        "source": "/Users/German/.gradle/caches/transforms-2/files-2.1/ff5579b0fd704d100dd064ce62c44ed8/appcompat-1.1.0/res/drawable-ldrtl-hdpi-v17/abc_spinner_mtrl_am_alpha.9.png"
     },
     {
         "merged": "/Users/German/Documents/Repositorios/NET-Baires/NET-Baires-Mobile/android/app/build/intermediates/res/merged/debug/layout-v26_mtrl_calendar_month.xml.flat",

@@ -1,4 +1,5 @@
 import Config, { getGlobalToken } from "./config";
+import { manageServicesError } from "./errorsServices";
 interface File {}
 
 export const getRequest = <TResponse>(
@@ -31,7 +32,7 @@ const doRequest = <TBody, TResponse>(
   defaultValue: TResponse | null = null
 ): Promise<TResponse> => {
   return fetch(
-    `${Config.api.url}${url}`,
+    `${Config.api.url}/${url}`,
     generateOptions<TBody>(method, body)
   ).then(response => {
     if (response.status === 204) return defaultValue;
@@ -40,6 +41,9 @@ const doRequest = <TBody, TResponse>(
     if (response.status.toString().indexOf("40") >= 0)
       return Promise.reject(response.status);
     return response.json();
+  })
+  .catch(x=> {
+    manageServicesError(x);
   });
 };
 export const generateOptions = <TBody>(
@@ -96,7 +100,7 @@ const WithFileRequest = <TBody>(
     },
     body: formData
   };
-  return fetch(`${Config.api.url}${url}`, options).then((x: any) => {
+  return fetch(`${Config.api.url}/${url}`, options).then((x: any) => {
     var contentType = x.headers.get("content-type");
     if (contentType && contentType.indexOf("application/json") !== -1) {
       return x.json();

@@ -25,6 +25,9 @@ import Spinner from "react-native-loading-spinner-overlay";
 import { AttendeDetailMemberDetail } from "models/AttendeDetail";
 import { Platform } from "react-native";
 import Share from "react-native-share";
+import Configuration from "app/services/config";
+import { shareLink } from "app/services/shareService";
+
 interface Props {
   navigation: NavigationScreenProp<NavigationState, NavigationParams>;
   actions: any;
@@ -35,8 +38,7 @@ const Profile: React.SFC<Props> = ({ navigation }) => {
   const [memberDetail, setMemberDetail] = useState<AttendeDetailMemberDetail>(
     {} as AttendeDetailMemberDetail
   );
-  const { meDetail } = useContext(AuthContext);
-  const { logOff } = useContext(AuthContext);
+  const { meDetail, logOff } = useContext(AuthContext);
   useEffect(() => {
     setMemberDetail(meDetail);
     setLoading(false);
@@ -51,39 +53,10 @@ const Profile: React.SFC<Props> = ({ navigation }) => {
     setReminders(value);
   };
   const shareHandler = () => {
-    const url = "http://google.com.ar";
-    const title = "Titulo share";
-    const message = "Alto mensaje wacho";
-    const options = Platform.select({
-      ios: {
-        activityItemSources: [
-          {
-            placeholderItem: { type: "url", content: url },
-            item: {
-              default: { type: "url", content: url },
-            },
-            subject: {
-              default: title,
-            },
-            linkMetadata: { originalUrl: url, url, title },
-          },
-          {
-            placeholderItem: { type: "text", content: message },
-            item: {
-              default: { type: "text", content: message },
-              message: null, // Specify no text to share via Messages app.
-            },
-          },
-        ],
-      },
-      default: {
-        title,
-        subject: title,
-        message: `${message} ${url}`,
-      },
-    });
-
-    Share.open(options);
+    const url = `${Configuration.site.url}/members/${meDetail.id}/profile`;
+    const title = "Visitá mi Perfil en NET-Baires";
+    const message = "";
+    shareLink(url, title, message);
   };
   return (
     <SafeAreaView style={BaseStyle.safeAreaView} forceInset={{ top: "always" }}>

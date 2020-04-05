@@ -234,39 +234,6 @@ const Home = ({ navigation }) => {
               {/* <View style={styles.line} /> */}
             </>
           )}
-
-          {/* Hiking */}
-          {/* <View>
-            <View style={styles.contentHiking}>
-              <Text title3 semibold>
-                Tours
-              </Text>
-              <Text body2 grayColor>
-                Let find out what most interesting things
-              </Text>
-            </View>
-            <FlatList
-              horizontal={true}
-              showsHorizontalScrollIndicator={false}
-              data={tours}
-              keyExtractor={(item, index) => item.id}
-              renderItem={({ item, index }) => (
-                <Card
-                  style={[
-                    styles.tourItem,
-                    index == 0 ? { marginHorizontal: 20 } : { marginRight: 20 }
-                  ]}
-                  image={item.image}
-                  onPress={() => navigation.navigate("TourDetail")}
-                >
-                  <Text headline whiteColor semibold>
-                    {item.name}
-                  </Text>
-                </Card>
-              )}
-            />
-          </View> */}
-          {/* Event*/}
           {!isEmpty(upComingEvents) && (
             <>
               <Text title3 semibold style={{ padding: 20 }}>

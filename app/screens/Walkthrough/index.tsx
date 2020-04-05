@@ -9,15 +9,12 @@ import { BaseStyle, Images } from "@config";
 import * as Utils from "@utils";
 import DeepLinking from "react-native-deep-linking";
 import { loginWithMeetupToken } from "app/services/loginService";
-import { storeData, StoreKeys, getData } from "app/services/storeService";
 import { AuthContext } from "app/Context/AuthContext";
-import { getMe } from "app/services/profileServices";
 import {
   NavigationScreenProp,
   NavigationState,
-  NavigationParams,
-  NavigationLeafRoute
-} from "react-navigation";
+  NavigationParams} from "react-navigation";
+import Configuration from "app/services/config";
 
 interface Props {
   navigation: NavigationScreenProp<NavigationState, NavigationParams>;
@@ -69,9 +66,10 @@ const Walkthrough: React.SFC<WalkthroughProps> = ({ navigation }) => {
   const loginMeetup = () => {
     setLoading(true);
     Linking.openURL(
-      "https://secure.meetup.com/es-ES/oauth2/authorize?response_type=token&redirect_uri=netbaires://link&client_id=pc0kad3lh1i3ujtp4m8om7d689"
+      `${Configuration.oauth.meetup.url}?response_type=token&redirect_uri=netbaires://link&client_id=${Configuration.oauth.meetup.clientId}`
     );
   };
+
 
   return (
     <SafeAreaView style={BaseStyle.safeAreaView} forceInset={{ top: "always" }}>

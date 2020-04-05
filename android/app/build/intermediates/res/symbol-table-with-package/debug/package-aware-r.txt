@@ -1934,6 +1934,10 @@ raw amu_poly_style_boolean_numeric
 raw amu_unknwown_folder
 raw amu_unsupported
 raw amu_visibility_ground_overlay
+string API_URL
+string MEETUP_OAUTH_URL
+string MEETUP_OUATH_CLIENT_ID
+string SITE_URL
 string abc_action_bar_home_description
 string abc_action_bar_up_description
 string abc_action_menu_overflow_description
@@ -1965,6 +1969,7 @@ string alert_description
 string app_name
 string appbar_scrolling_view_behavior
 string bottom_sheet_behavior
+string build_config_package
 string catalyst_change_bundle_location
 string catalyst_copy_button
 string catalyst_debug
