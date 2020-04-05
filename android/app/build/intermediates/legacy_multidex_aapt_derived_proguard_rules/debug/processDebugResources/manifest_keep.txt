@@ -1,4 +1,0 @@
-# Referenced at /Users/German/Documents/Repositorios/NET-Baires/NET-Baires-Mobile/android/app/build/intermediates/merged_manifests/debug/AndroidManifest.xml:22
--keep class androidx.core.app.CoreComponentFactory { <init>(); }
-# Referenced at /Users/German/Documents/Repositorios/NET-Baires/NET-Baires-Mobile/android/app/build/intermediates/merged_manifests/debug/AndroidManifest.xml:22
--keep class com.netbaires.MainApplication { <init>(); }
