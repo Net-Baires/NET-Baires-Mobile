@@ -656,10 +656,10 @@
     <item quantity="one"><ns1:g id="count">%d</ns1:g> new notification</item>
     <item quantity="other"><ns1:g id="count">%d</ns1:g> new notifications</item>
   </plurals>
-    <string name="API_URL" translatable="false">"http://net-baires-api-dev.azurewebsites.net/"</string>
+    <string name="API_URL" translatable="false">"http://net-baires-api-dev.azurewebsites.net"</string>
     <string name="MEETUP_OAUTH_URL" translatable="false">"https://secure.meetup.com/es-ES/oauth2/authorize"</string>
     <string name="MEETUP_OUATH_CLIENT_ID" translatable="false">"pc0kad3lh1i3ujtp4m8om7d689"</string>
-    <string name="SITE_URL" translatable="false">"http://net-baires-site-dev.azurewebsites.net/"</string>
+    <string name="SITE_URL" translatable="false">"https://net-baires-site-dev.azurewebsites.net"</string>
     <string name="abc_action_bar_home_description">Navigate home</string>
     <string name="abc_action_bar_up_description">Navigate up</string>
     <string name="abc_action_menu_overflow_description">More options</string>

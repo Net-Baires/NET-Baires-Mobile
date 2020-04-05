@@ -1,9 +1,9 @@
 -- Merging decision tree log ---
 manifest
-ADDED from /Users/German/Documents/Repositorios/NET-Baires/NET-Baires-Mobile/android/app/src/main/AndroidManifest.xml:1:1-42:12
-INJECTED from /Users/German/Documents/Repositorios/NET-Baires/NET-Baires-Mobile/android/app/src/main/AndroidManifest.xml:1:1-42:12
-INJECTED from /Users/German/Documents/Repositorios/NET-Baires/NET-Baires-Mobile/android/app/src/main/AndroidManifest.xml:1:1-42:12
-INJECTED from /Users/German/Documents/Repositorios/NET-Baires/NET-Baires-Mobile/android/app/src/main/AndroidManifest.xml:1:1-42:12
+ADDED from /Users/German/Documents/Repositorios/NET-Baires/NET-Baires-Mobile/android/app/src/main/AndroidManifest.xml:1:1-44:12
+INJECTED from /Users/German/Documents/Repositorios/NET-Baires/NET-Baires-Mobile/android/app/src/main/AndroidManifest.xml:1:1-44:12
+INJECTED from /Users/German/Documents/Repositorios/NET-Baires/NET-Baires-Mobile/android/app/src/main/AndroidManifest.xml:1:1-44:12
+INJECTED from /Users/German/Documents/Repositorios/NET-Baires/NET-Baires-Mobile/android/app/src/main/AndroidManifest.xml:1:1-44:12
 MERGED from [hermes-debug.aar] /Users/German/.gradle/caches/transforms-2/files-2.1/db04403f658a4a99e940d02e0793de07/hermes-debug/AndroidManifest.xml:2:1-7:12
 MERGED from [androidx.multidex:multidex:2.0.0] /Users/German/.gradle/caches/transforms-2/files-2.1/3d130b1c477f8cfd3db05aff49c03cf1/multidex-2.0.0/AndroidManifest.xml:17:1-22:12
 MERGED from [:react-native-community_async-storage] /Users/German/Documents/Repositorios/NET-Baires/NET-Baires-Mobile/node_modules/@react-native-community/async-storage/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-9:12
@@ -78,20 +78,20 @@ MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /Users/
 MERGED from [androidx.print:print:1.0.0] /Users/German/.gradle/caches/transforms-2/files-2.1/66716d543b7cae4ae42f1a71fa52c15c/print-1.0.0/AndroidManifest.xml:17:1-22:12
 MERGED from [com.google.maps.android:android-maps-utils:0.5] /Users/German/.gradle/caches/transforms-2/files-2.1/c857f6973c8353ed727e7bd0f2d5f480/jetified-android-maps-utils-0.5/AndroidManifest.xml:2:1-13:12
 MERGED from [com.facebook.fresco:fbcore:2.0.0] /Users/German/.gradle/caches/transforms-2/files-2.1/08fe319ca1553aa71e485ef417702015/jetified-fbcore-2.0.0/AndroidManifest.xml:2:1-9:12
-INJECTED from /Users/German/Documents/Repositorios/NET-Baires/NET-Baires-Mobile/android/app/src/main/AndroidManifest.xml:1:1-42:12
-INJECTED from /Users/German/Documents/Repositorios/NET-Baires/NET-Baires-Mobile/android/app/src/main/AndroidManifest.xml:1:1-42:12
-INJECTED from /Users/German/Documents/Repositorios/NET-Baires/NET-Baires-Mobile/android/app/src/main/AndroidManifest.xml:1:1-42:12
+INJECTED from /Users/German/Documents/Repositorios/NET-Baires/NET-Baires-Mobile/android/app/src/main/AndroidManifest.xml:1:1-44:12
+INJECTED from /Users/German/Documents/Repositorios/NET-Baires/NET-Baires-Mobile/android/app/src/main/AndroidManifest.xml:1:1-44:12
+INJECTED from /Users/German/Documents/Repositorios/NET-Baires/NET-Baires-Mobile/android/app/src/main/AndroidManifest.xml:1:1-44:12
 	package
 		ADDED from /Users/German/Documents/Repositorios/NET-Baires/NET-Baires-Mobile/android/app/src/main/AndroidManifest.xml:2:3-26
 		INJECTED from /Users/German/Documents/Repositorios/NET-Baires/NET-Baires-Mobile/android/app/src/main/AndroidManifest.xml
 		INJECTED from /Users/German/Documents/Repositorios/NET-Baires/NET-Baires-Mobile/android/app/src/main/AndroidManifest.xml
 	android:versionName
 		INJECTED from /Users/German/Documents/Repositorios/NET-Baires/NET-Baires-Mobile/android/app/src/main/AndroidManifest.xml
-		ADDED from /Users/German/Documents/Repositorios/NET-Baires/NET-Baires-Mobile/android/app/src/main/AndroidManifest.xml:1:1-42:12
+		ADDED from /Users/German/Documents/Repositorios/NET-Baires/NET-Baires-Mobile/android/app/src/main/AndroidManifest.xml:1:1-44:12
 		INJECTED from /Users/German/Documents/Repositorios/NET-Baires/NET-Baires-Mobile/android/app/src/main/AndroidManifest.xml
 	android:versionCode
 		INJECTED from /Users/German/Documents/Repositorios/NET-Baires/NET-Baires-Mobile/android/app/src/main/AndroidManifest.xml
-		ADDED from /Users/German/Documents/Repositorios/NET-Baires/NET-Baires-Mobile/android/app/src/main/AndroidManifest.xml:1:1-42:12
+		ADDED from /Users/German/Documents/Repositorios/NET-Baires/NET-Baires-Mobile/android/app/src/main/AndroidManifest.xml:1:1-44:12
 		INJECTED from /Users/German/Documents/Repositorios/NET-Baires/NET-Baires-Mobile/android/app/src/main/AndroidManifest.xml
 	xmlns:android
 		ADDED from /Users/German/Documents/Repositorios/NET-Baires/NET-Baires-Mobile/android/app/src/main/AndroidManifest.xml:1:11-69
@@ -118,7 +118,7 @@ MERGED from [:react-native-share] /Users/German/Documents/Repositorios/NET-Baire
 	android:name
 		ADDED from /Users/German/Documents/Repositorios/NET-Baires/NET-Baires-Mobile/android/app/src/main/AndroidManifest.xml:7:22-78
 application
-ADDED from /Users/German/Documents/Repositorios/NET-Baires/NET-Baires-Mobile/android/app/src/main/AndroidManifest.xml:8:5-40:19
+ADDED from /Users/German/Documents/Repositorios/NET-Baires/NET-Baires-Mobile/android/app/src/main/AndroidManifest.xml:8:5-42:19
 MERGED from [:react-native-image-picker] /Users/German/Documents/Repositorios/NET-Baires/NET-Baires-Mobile/node_modules/react-native-image-picker/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:9:5-19:19
 MERGED from [:react-native-image-picker] /Users/German/Documents/Repositorios/NET-Baires/NET-Baires-Mobile/node_modules/react-native-image-picker/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:9:5-19:19
 MERGED from [:react-native-share] /Users/German/Documents/Repositorios/NET-Baires/NET-Baires-Mobile/node_modules/react-native-share/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:11:5-21:19
@@ -172,7 +172,7 @@ ADDED from /Users/German/Documents/Repositorios/NET-Baires/NET-Baires-Mobile/and
 	android:name
 		ADDED from /Users/German/Documents/Repositorios/NET-Baires/NET-Baires-Mobile/android/app/src/main/AndroidManifest.xml:16:7-52
 activity#com.netbaires.MainActivity
-ADDED from /Users/German/Documents/Repositorios/NET-Baires/NET-Baires-Mobile/android/app/src/main/AndroidManifest.xml:18:7-38:18
+ADDED from /Users/German/Documents/Repositorios/NET-Baires/NET-Baires-Mobile/android/app/src/main/AndroidManifest.xml:18:7-40:18
 	android:label
 		ADDED from /Users/German/Documents/Repositorios/NET-Baires/NET-Baires-Mobile/android/app/src/main/AndroidManifest.xml:20:9-41
 	android:launchMode
@@ -193,8 +193,8 @@ category#android.intent.category.LAUNCHER
 ADDED from /Users/German/Documents/Repositorios/NET-Baires/NET-Baires-Mobile/android/app/src/main/AndroidManifest.xml:26:13-73
 	android:name
 		ADDED from /Users/German/Documents/Repositorios/NET-Baires/NET-Baires-Mobile/android/app/src/main/AndroidManifest.xml:26:23-70
-intent-filter#action:name:android.intent.action.VIEW+category:name:android.intent.category.BROWSABLE+category:name:android.intent.category.DEFAULT+data:host:link+data:scheme:netbaires
-ADDED from /Users/German/Documents/Repositorios/NET-Baires/NET-Baires-Mobile/android/app/src/main/AndroidManifest.xml:28:9-34:25
+intent-filter#action:name:android.intent.action.VIEW+category:name:android.intent.category.BROWSABLE+category:name:android.intent.category.DEFAULT+data:host:link+data:host:net-baires-site-dev.azurewebsites.net+data:scheme:https+data:scheme:netbaires
+ADDED from /Users/German/Documents/Repositorios/NET-Baires/NET-Baires-Mobile/android/app/src/main/AndroidManifest.xml:28:9-36:25
 	android:label
 		ADDED from /Users/German/Documents/Repositorios/NET-Baires/NET-Baires-Mobile/android/app/src/main/AndroidManifest.xml:28:24-56
 action#android.intent.action.VIEW
@@ -216,9 +216,9 @@ ADDED from /Users/German/Documents/Repositorios/NET-Baires/NET-Baires-Mobile/and
 	android:scheme
 		ADDED from /Users/German/Documents/Repositorios/NET-Baires/NET-Baires-Mobile/android/app/src/main/AndroidManifest.xml:32:17-43
 activity#com.facebook.react.devsupport.DevSettingsActivity
-ADDED from /Users/German/Documents/Repositorios/NET-Baires/NET-Baires-Mobile/android/app/src/main/AndroidManifest.xml:39:7-84
+ADDED from /Users/German/Documents/Repositorios/NET-Baires/NET-Baires-Mobile/android/app/src/main/AndroidManifest.xml:41:7-84
 	android:name
-		ADDED from /Users/German/Documents/Repositorios/NET-Baires/NET-Baires-Mobile/android/app/src/main/AndroidManifest.xml:39:17-81
+		ADDED from /Users/German/Documents/Repositorios/NET-Baires/NET-Baires-Mobile/android/app/src/main/AndroidManifest.xml:41:17-81
 uses-sdk
 INJECTED from /Users/German/Documents/Repositorios/NET-Baires/NET-Baires-Mobile/android/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from /Users/German/Documents/Repositorios/NET-Baires/NET-Baires-Mobile/android/app/src/main/AndroidManifest.xml

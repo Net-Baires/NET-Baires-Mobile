@@ -31,7 +31,7 @@
           <category android:name="android.intent.category.BROWSABLE" />
           <data android:scheme="netbaires"
                 android:host="link" />
-          <data android:scheme="http"
+          <data android:scheme="https"
                 android:host="net-baires-site-dev.azurewebsites.net" />
         </intent-filter>
         

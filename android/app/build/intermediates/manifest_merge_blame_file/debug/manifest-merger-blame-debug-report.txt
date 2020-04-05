@@ -37,7 +37,7 @@
 20-->[com.google.android.gms:play-services-maps:16.1.0] /Users/German/.gradle/caches/transforms-2/files-2.1/73e6bdfbbd81c588a5d77f904d5e39fb/jetified-play-services-maps-16.1.0/AndroidManifest.xml:28:9-32
 21
 22    <application
-22-->/Users/German/Documents/Repositorios/NET-Baires/NET-Baires-Mobile/android/app/src/main/AndroidManifest.xml:8:5-40:19
+22-->/Users/German/Documents/Repositorios/NET-Baires/NET-Baires-Mobile/android/app/src/main/AndroidManifest.xml:8:5-42:19
 23        android:name="com.netbaires.MainApplication"
 23-->/Users/German/Documents/Repositorios/NET-Baires/NET-Baires-Mobile/android/app/src/main/AndroidManifest.xml:9:7-38
 24        android:allowBackup="false"
@@ -61,7 +61,7 @@
 33-->/Users/German/Documents/Repositorios/NET-Baires/NET-Baires-Mobile/android/app/src/main/AndroidManifest.xml:17:7-62
 34
 35        <activity
-35-->/Users/German/Documents/Repositorios/NET-Baires/NET-Baires-Mobile/android/app/src/main/AndroidManifest.xml:18:7-38:18
+35-->/Users/German/Documents/Repositorios/NET-Baires/NET-Baires-Mobile/android/app/src/main/AndroidManifest.xml:18:7-40:18
 36            android:name="com.netbaires.MainActivity"
 36-->/Users/German/Documents/Repositorios/NET-Baires/NET-Baires-Mobile/android/app/src/main/AndroidManifest.xml:19:9-37
 37            android:configChanges="keyboard|keyboardHidden|orientation|screenSize"
@@ -83,7 +83,7 @@
 44-->/Users/German/Documents/Repositorios/NET-Baires/NET-Baires-Mobile/android/app/src/main/AndroidManifest.xml:26:23-70
 45            </intent-filter>
 46            <intent-filter android:label="@string/app_name" >
-46-->/Users/German/Documents/Repositorios/NET-Baires/NET-Baires-Mobile/android/app/src/main/AndroidManifest.xml:28:9-34:25
+46-->/Users/German/Documents/Repositorios/NET-Baires/NET-Baires-Mobile/android/app/src/main/AndroidManifest.xml:28:9-36:25
 46-->/Users/German/Documents/Repositorios/NET-Baires/NET-Baires-Mobile/android/app/src/main/AndroidManifest.xml:28:24-56
 47                <action android:name="android.intent.action.VIEW" />
 47-->/Users/German/Documents/Repositorios/NET-Baires/NET-Baires-Mobile/android/app/src/main/AndroidManifest.xml:29:11-63
@@ -102,75 +102,81 @@
 53-->/Users/German/Documents/Repositorios/NET-Baires/NET-Baires-Mobile/android/app/src/main/AndroidManifest.xml:33:17-36
 54                    android:scheme="netbaires" />
 54-->/Users/German/Documents/Repositorios/NET-Baires/NET-Baires-Mobile/android/app/src/main/AndroidManifest.xml:32:17-43
-55            </intent-filter>
-56        </activity>
-57        <activity android:name="com.facebook.react.devsupport.DevSettingsActivity" />
-57-->/Users/German/Documents/Repositorios/NET-Baires/NET-Baires-Mobile/android/app/src/main/AndroidManifest.xml:39:7-84
-57-->/Users/German/Documents/Repositorios/NET-Baires/NET-Baires-Mobile/android/app/src/main/AndroidManifest.xml:39:17-81
-58
-59        <provider
-59-->[:react-native-image-picker] /Users/German/Documents/Repositorios/NET-Baires/NET-Baires-Mobile/node_modules/react-native-image-picker/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:10:9-18:20
-60            android:name="com.imagepicker.FileProvider"
-60-->[:react-native-image-picker] /Users/German/Documents/Repositorios/NET-Baires/NET-Baires-Mobile/node_modules/react-native-image-picker/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:11:13-56
-61            android:authorities="com.netbaires.provider"
-61-->[:react-native-image-picker] /Users/German/Documents/Repositorios/NET-Baires/NET-Baires-Mobile/node_modules/react-native-image-picker/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:12:13-60
-62            android:exported="false"
-62-->[:react-native-image-picker] /Users/German/Documents/Repositorios/NET-Baires/NET-Baires-Mobile/node_modules/react-native-image-picker/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:13:13-37
-63            android:grantUriPermissions="true" >
-63-->[:react-native-image-picker] /Users/German/Documents/Repositorios/NET-Baires/NET-Baires-Mobile/node_modules/react-native-image-picker/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:14:13-47
-64            <meta-data
-64-->[:react-native-image-picker] /Users/German/Documents/Repositorios/NET-Baires/NET-Baires-Mobile/node_modules/react-native-image-picker/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:15:13-17:58
-65                android:name="android.support.FILE_PROVIDER_PATHS"
-65-->[:react-native-image-picker] /Users/German/Documents/Repositorios/NET-Baires/NET-Baires-Mobile/node_modules/react-native-image-picker/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:16:17-67
-66                android:resource="@xml/provider_paths" />
-66-->[:react-native-image-picker] /Users/German/Documents/Repositorios/NET-Baires/NET-Baires-Mobile/node_modules/react-native-image-picker/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:17:17-55
-67        </provider>
-68        <provider
-68-->[:react-native-share] /Users/German/Documents/Repositorios/NET-Baires/NET-Baires-Mobile/node_modules/react-native-share/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:12:9-20:20
-69            android:name="cl.json.RNShareFileProvider"
-69-->[:react-native-share] /Users/German/Documents/Repositorios/NET-Baires/NET-Baires-Mobile/node_modules/react-native-share/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:13:13-55
-70            android:authorities="com.netbaires.rnshare.fileprovider"
-70-->[:react-native-share] /Users/German/Documents/Repositorios/NET-Baires/NET-Baires-Mobile/node_modules/react-native-share/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:14:13-72
-71            android:exported="false"
-71-->[:react-native-share] /Users/German/Documents/Repositorios/NET-Baires/NET-Baires-Mobile/node_modules/react-native-share/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:15:13-37
-72            android:grantUriPermissions="true" >
-72-->[:react-native-share] /Users/German/Documents/Repositorios/NET-Baires/NET-Baires-Mobile/node_modules/react-native-share/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:16:13-47
-73            <meta-data
-73-->[:react-native-image-picker] /Users/German/Documents/Repositorios/NET-Baires/NET-Baires-Mobile/node_modules/react-native-image-picker/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:15:13-17:58
-74                android:name="android.support.FILE_PROVIDER_PATHS"
-74-->[:react-native-image-picker] /Users/German/Documents/Repositorios/NET-Baires/NET-Baires-Mobile/node_modules/react-native-image-picker/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:16:17-67
-75                android:resource="@xml/share_download_paths" />
-75-->[:react-native-image-picker] /Users/German/Documents/Repositorios/NET-Baires/NET-Baires-Mobile/node_modules/react-native-image-picker/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:17:17-55
-76        </provider>
-77
-78        <meta-data
-78-->[com.github.bumptech.glide:okhttp3-integration:4.9.0] /Users/German/.gradle/caches/transforms-2/files-2.1/07add0b7ff700880e2191dcc56efd3b5/jetified-okhttp3-integration-4.9.0/AndroidManifest.xml:11:9-13:43
-79            android:name="com.bumptech.glide.integration.okhttp3.OkHttpGlideModule"
-79-->[com.github.bumptech.glide:okhttp3-integration:4.9.0] /Users/German/.gradle/caches/transforms-2/files-2.1/07add0b7ff700880e2191dcc56efd3b5/jetified-okhttp3-integration-4.9.0/AndroidManifest.xml:12:13-84
-80            android:value="GlideModule" /> <!-- Needs to be explicitly declared on P+ -->
-80-->[com.github.bumptech.glide:okhttp3-integration:4.9.0] /Users/German/.gradle/caches/transforms-2/files-2.1/07add0b7ff700880e2191dcc56efd3b5/jetified-okhttp3-integration-4.9.0/AndroidManifest.xml:13:13-40
-81        <uses-library
-81-->[com.google.android.gms:play-services-maps:16.1.0] /Users/German/.gradle/caches/transforms-2/files-2.1/73e6bdfbbd81c588a5d77f904d5e39fb/jetified-play-services-maps-16.1.0/AndroidManifest.xml:33:9-35:40
-82            android:name="org.apache.http.legacy"
-82-->[com.google.android.gms:play-services-maps:16.1.0] /Users/German/.gradle/caches/transforms-2/files-2.1/73e6bdfbbd81c588a5d77f904d5e39fb/jetified-play-services-maps-16.1.0/AndroidManifest.xml:34:13-50
-83            android:required="false" />
-83-->[com.google.android.gms:play-services-maps:16.1.0] /Users/German/.gradle/caches/transforms-2/files-2.1/73e6bdfbbd81c588a5d77f904d5e39fb/jetified-play-services-maps-16.1.0/AndroidManifest.xml:35:13-37
-84
-85        <activity
-85-->[com.google.android.gms:play-services-base:16.1.0] /Users/German/.gradle/caches/transforms-2/files-2.1/4bf5b23dddac7d98d91293f52c029b4d/jetified-play-services-base-16.1.0/AndroidManifest.xml:23:9-26:75
-86            android:name="com.google.android.gms.common.api.GoogleApiActivity"
-86-->[com.google.android.gms:play-services-base:16.1.0] /Users/German/.gradle/caches/transforms-2/files-2.1/4bf5b23dddac7d98d91293f52c029b4d/jetified-play-services-base-16.1.0/AndroidManifest.xml:24:13-79
-87            android:exported="false"
-87-->[com.google.android.gms:play-services-base:16.1.0] /Users/German/.gradle/caches/transforms-2/files-2.1/4bf5b23dddac7d98d91293f52c029b4d/jetified-play-services-base-16.1.0/AndroidManifest.xml:25:13-37
-88            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
-88-->[com.google.android.gms:play-services-base:16.1.0] /Users/German/.gradle/caches/transforms-2/files-2.1/4bf5b23dddac7d98d91293f52c029b4d/jetified-play-services-base-16.1.0/AndroidManifest.xml:26:13-72
-89
-90        <meta-data
-90-->[com.google.android.gms:play-services-basement:16.2.0] /Users/German/.gradle/caches/transforms-2/files-2.1/a0046b5475bbbba4d3703f27276e3d1a/jetified-play-services-basement-16.2.0/AndroidManifest.xml:23:9-25:69
-91            android:name="com.google.android.gms.version"
-91-->[com.google.android.gms:play-services-basement:16.2.0] /Users/German/.gradle/caches/transforms-2/files-2.1/a0046b5475bbbba4d3703f27276e3d1a/jetified-play-services-basement-16.2.0/AndroidManifest.xml:24:13-58
-92            android:value="@integer/google_play_services_version" />
-92-->[com.google.android.gms:play-services-basement:16.2.0] /Users/German/.gradle/caches/transforms-2/files-2.1/a0046b5475bbbba4d3703f27276e3d1a/jetified-play-services-basement-16.2.0/AndroidManifest.xml:25:13-66
-93    </application>
-94
-95</manifest>
+55                <data
+55-->/Users/German/Documents/Repositorios/NET-Baires/NET-Baires-Mobile/android/app/src/main/AndroidManifest.xml:32:11-33:39
+56                    android:host="net-baires-site-dev.azurewebsites.net"
+56-->/Users/German/Documents/Repositorios/NET-Baires/NET-Baires-Mobile/android/app/src/main/AndroidManifest.xml:33:17-36
+57                    android:scheme="https" />
+57-->/Users/German/Documents/Repositorios/NET-Baires/NET-Baires-Mobile/android/app/src/main/AndroidManifest.xml:32:17-43
+58            </intent-filter>
+59        </activity>
+60        <activity android:name="com.facebook.react.devsupport.DevSettingsActivity" />
+60-->/Users/German/Documents/Repositorios/NET-Baires/NET-Baires-Mobile/android/app/src/main/AndroidManifest.xml:41:7-84
+60-->/Users/German/Documents/Repositorios/NET-Baires/NET-Baires-Mobile/android/app/src/main/AndroidManifest.xml:41:17-81
+61
+62        <provider
+62-->[:react-native-image-picker] /Users/German/Documents/Repositorios/NET-Baires/NET-Baires-Mobile/node_modules/react-native-image-picker/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:10:9-18:20
+63            android:name="com.imagepicker.FileProvider"
+63-->[:react-native-image-picker] /Users/German/Documents/Repositorios/NET-Baires/NET-Baires-Mobile/node_modules/react-native-image-picker/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:11:13-56
+64            android:authorities="com.netbaires.provider"
+64-->[:react-native-image-picker] /Users/German/Documents/Repositorios/NET-Baires/NET-Baires-Mobile/node_modules/react-native-image-picker/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:12:13-60
+65            android:exported="false"
+65-->[:react-native-image-picker] /Users/German/Documents/Repositorios/NET-Baires/NET-Baires-Mobile/node_modules/react-native-image-picker/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:13:13-37
+66            android:grantUriPermissions="true" >
+66-->[:react-native-image-picker] /Users/German/Documents/Repositorios/NET-Baires/NET-Baires-Mobile/node_modules/react-native-image-picker/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:14:13-47
+67            <meta-data
+67-->[:react-native-image-picker] /Users/German/Documents/Repositorios/NET-Baires/NET-Baires-Mobile/node_modules/react-native-image-picker/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:15:13-17:58
+68                android:name="android.support.FILE_PROVIDER_PATHS"
+68-->[:react-native-image-picker] /Users/German/Documents/Repositorios/NET-Baires/NET-Baires-Mobile/node_modules/react-native-image-picker/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:16:17-67
+69                android:resource="@xml/provider_paths" />
+69-->[:react-native-image-picker] /Users/German/Documents/Repositorios/NET-Baires/NET-Baires-Mobile/node_modules/react-native-image-picker/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:17:17-55
+70        </provider>
+71        <provider
+71-->[:react-native-share] /Users/German/Documents/Repositorios/NET-Baires/NET-Baires-Mobile/node_modules/react-native-share/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:12:9-20:20
+72            android:name="cl.json.RNShareFileProvider"
+72-->[:react-native-share] /Users/German/Documents/Repositorios/NET-Baires/NET-Baires-Mobile/node_modules/react-native-share/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:13:13-55
+73            android:authorities="com.netbaires.rnshare.fileprovider"
+73-->[:react-native-share] /Users/German/Documents/Repositorios/NET-Baires/NET-Baires-Mobile/node_modules/react-native-share/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:14:13-72
+74            android:exported="false"
+74-->[:react-native-share] /Users/German/Documents/Repositorios/NET-Baires/NET-Baires-Mobile/node_modules/react-native-share/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:15:13-37
+75            android:grantUriPermissions="true" >
+75-->[:react-native-share] /Users/German/Documents/Repositorios/NET-Baires/NET-Baires-Mobile/node_modules/react-native-share/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:16:13-47
+76            <meta-data
+76-->[:react-native-image-picker] /Users/German/Documents/Repositorios/NET-Baires/NET-Baires-Mobile/node_modules/react-native-image-picker/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:15:13-17:58
+77                android:name="android.support.FILE_PROVIDER_PATHS"
+77-->[:react-native-image-picker] /Users/German/Documents/Repositorios/NET-Baires/NET-Baires-Mobile/node_modules/react-native-image-picker/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:16:17-67
+78                android:resource="@xml/share_download_paths" />
+78-->[:react-native-image-picker] /Users/German/Documents/Repositorios/NET-Baires/NET-Baires-Mobile/node_modules/react-native-image-picker/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:17:17-55
+79        </provider>
+80
+81        <meta-data
+81-->[com.github.bumptech.glide:okhttp3-integration:4.9.0] /Users/German/.gradle/caches/transforms-2/files-2.1/07add0b7ff700880e2191dcc56efd3b5/jetified-okhttp3-integration-4.9.0/AndroidManifest.xml:11:9-13:43
+82            android:name="com.bumptech.glide.integration.okhttp3.OkHttpGlideModule"
+82-->[com.github.bumptech.glide:okhttp3-integration:4.9.0] /Users/German/.gradle/caches/transforms-2/files-2.1/07add0b7ff700880e2191dcc56efd3b5/jetified-okhttp3-integration-4.9.0/AndroidManifest.xml:12:13-84
+83            android:value="GlideModule" /> <!-- Needs to be explicitly declared on P+ -->
+83-->[com.github.bumptech.glide:okhttp3-integration:4.9.0] /Users/German/.gradle/caches/transforms-2/files-2.1/07add0b7ff700880e2191dcc56efd3b5/jetified-okhttp3-integration-4.9.0/AndroidManifest.xml:13:13-40
+84        <uses-library
+84-->[com.google.android.gms:play-services-maps:16.1.0] /Users/German/.gradle/caches/transforms-2/files-2.1/73e6bdfbbd81c588a5d77f904d5e39fb/jetified-play-services-maps-16.1.0/AndroidManifest.xml:33:9-35:40
+85            android:name="org.apache.http.legacy"
+85-->[com.google.android.gms:play-services-maps:16.1.0] /Users/German/.gradle/caches/transforms-2/files-2.1/73e6bdfbbd81c588a5d77f904d5e39fb/jetified-play-services-maps-16.1.0/AndroidManifest.xml:34:13-50
+86            android:required="false" />
+86-->[com.google.android.gms:play-services-maps:16.1.0] /Users/German/.gradle/caches/transforms-2/files-2.1/73e6bdfbbd81c588a5d77f904d5e39fb/jetified-play-services-maps-16.1.0/AndroidManifest.xml:35:13-37
+87
+88        <activity
+88-->[com.google.android.gms:play-services-base:16.1.0] /Users/German/.gradle/caches/transforms-2/files-2.1/4bf5b23dddac7d98d91293f52c029b4d/jetified-play-services-base-16.1.0/AndroidManifest.xml:23:9-26:75
+89            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+89-->[com.google.android.gms:play-services-base:16.1.0] /Users/German/.gradle/caches/transforms-2/files-2.1/4bf5b23dddac7d98d91293f52c029b4d/jetified-play-services-base-16.1.0/AndroidManifest.xml:24:13-79
+90            android:exported="false"
+90-->[com.google.android.gms:play-services-base:16.1.0] /Users/German/.gradle/caches/transforms-2/files-2.1/4bf5b23dddac7d98d91293f52c029b4d/jetified-play-services-base-16.1.0/AndroidManifest.xml:25:13-37
+91            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+91-->[com.google.android.gms:play-services-base:16.1.0] /Users/German/.gradle/caches/transforms-2/files-2.1/4bf5b23dddac7d98d91293f52c029b4d/jetified-play-services-base-16.1.0/AndroidManifest.xml:26:13-72
+92
+93        <meta-data
+93-->[com.google.android.gms:play-services-basement:16.2.0] /Users/German/.gradle/caches/transforms-2/files-2.1/a0046b5475bbbba4d3703f27276e3d1a/jetified-play-services-basement-16.2.0/AndroidManifest.xml:23:9-25:69
+94            android:name="com.google.android.gms.version"
+94-->[com.google.android.gms:play-services-basement:16.2.0] /Users/German/.gradle/caches/transforms-2/files-2.1/a0046b5475bbbba4d3703f27276e3d1a/jetified-play-services-basement-16.2.0/AndroidManifest.xml:24:13-58
+95            android:value="@integer/google_play_services_version" />
+95-->[com.google.android.gms:play-services-basement:16.2.0] /Users/German/.gradle/caches/transforms-2/files-2.1/a0046b5475bbbba4d3703f27276e3d1a/jetified-play-services-basement-16.2.0/AndroidManifest.xml:25:13-66
+96    </application>
+97
+98</manifest>

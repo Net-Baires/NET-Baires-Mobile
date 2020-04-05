@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
 import { store, persistor } from "app/store";
-import { StatusBar } from "react-native";
+import { StatusBar, Linking } from "react-native";
 import { BaseColor } from "@config";
 import { Provider } from "react-redux";
 import { PersistGate } from "redux-persist/integration/react";
@@ -13,6 +13,8 @@ const Index = () => {
   useEffect(() => {
     StatusBar.setBackgroundColor(BaseColor.primaryColor, true);
   }, []);
+
+  
   return (
     <AuthProvider>
       <AuthConsumer>
