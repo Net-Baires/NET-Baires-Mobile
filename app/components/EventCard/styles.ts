@@ -3,7 +3,7 @@ import * as Utils from "@utils";
 import { BaseColor } from "@config";
 export default StyleSheet.create({
   imageBanner: {
-    height: Utils.scaleWithPixel(200),
+    height: Utils.scaleWithPixel(190),
     borderTopLeftRadius: 5,
     borderTopRightRadius: 5
   },

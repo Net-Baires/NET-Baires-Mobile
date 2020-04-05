@@ -11,7 +11,7 @@ import {
   Text,
   Button,
   ProfileDetail,
-  ProfilePerformance
+  ProfilePerformance,
 } from "@components";
 import styles from "./styles";
 
@@ -19,11 +19,12 @@ import { AuthContext } from "app/Context/AuthContext";
 import {
   NavigationScreenProp,
   NavigationState,
-  NavigationParams
+  NavigationParams,
 } from "react-navigation";
 import Spinner from "react-native-loading-spinner-overlay";
 import { AttendeDetailMemberDetail } from "models/AttendeDetail";
-
+import { Platform } from "react-native";
+import Share from "react-native-share";
 interface Props {
   navigation: NavigationScreenProp<NavigationState, NavigationParams>;
   actions: any;
@@ -46,13 +47,47 @@ const Profile: React.SFC<Props> = ({ navigation }) => {
     navigation.navigate("Loading");
   };
 
-  const toggleSwitch = value => {
+  const toggleSwitch = (value) => {
     setReminders(value);
   };
+  const shareHandler = () => {
+    const url = "http://google.com.ar";
+    const title = "Titulo share";
+    const message = "Alto mensaje wacho";
+    const options = Platform.select({
+      ios: {
+        activityItemSources: [
+          {
+            placeholderItem: { type: "url", content: url },
+            item: {
+              default: { type: "url", content: url },
+            },
+            subject: {
+              default: title,
+            },
+            linkMetadata: { originalUrl: url, url, title },
+          },
+          {
+            placeholderItem: { type: "text", content: message },
+            item: {
+              default: { type: "text", content: message },
+              message: null, // Specify no text to share via Messages app.
+            },
+          },
+        ],
+      },
+      default: {
+        title,
+        subject: title,
+        message: `${message} ${url}`,
+      },
+    });
 
+    Share.open(options);
+  };
   return (
     <SafeAreaView style={BaseStyle.safeAreaView} forceInset={{ top: "always" }}>
-       <Spinner
+      <Spinner
         visible={loading}
         textContent={"Cargando..."}
         textStyle={BaseColor.primaryColor}
@@ -88,7 +123,7 @@ const Profile: React.SFC<Props> = ({ navigation }) => {
             data={[
               { title: "Registrado", value: memberDetail.eventsRegistered },
               { title: "Asistio", value: memberDetail.eventsAttended },
-              { title: "No Asistio", value: memberDetail.eventsNoAttended }
+              { title: "No Asistio", value: memberDetail.eventsNoAttended },
             ]}
             style={{ marginTop: 20, marginBottom: 20 }}
           />
@@ -99,7 +134,7 @@ const Profile: React.SFC<Props> = ({ navigation }) => {
                 navigation.navigate("ProfileEdit");
               }}
             >
-               <Text body1>Editar Perfil</Text>
+              <Text body1>Editar Perfil</Text>
               <Icon
                 name="angle-right"
                 size={18}
@@ -107,7 +142,16 @@ const Profile: React.SFC<Props> = ({ navigation }) => {
                 style={{ marginLeft: 5 }}
               />
             </TouchableOpacity>
-          {/*  <TouchableOpacity
+            <TouchableOpacity style={styles.profileItem} onPress={shareHandler}>
+              <Text body1>Compartir mi Perfil</Text>
+              {/* <Icon
+                name="angle-right"
+                size={18}
+                color={BaseColor.primaryColor}
+                style={{ marginLeft: 5 }}
+              /> */}
+            </TouchableOpacity>
+            {/*  <TouchableOpacity
               style={styles.profileItem}
               onPress={() => {
                 navigation.navigate("ChangePassword");
@@ -206,9 +250,9 @@ const mapStateToProps = () => {
   return {};
 };
 
-const mapDispatchToProps = dispatch => {
+const mapDispatchToProps = (dispatch) => {
   return {
-    actions: bindActionCreators(AuthActions, dispatch)
+    actions: bindActionCreators(AuthActions, dispatch),
   };
 };
 

@@ -17,6 +17,7 @@ MERGED from [:react-native-permissions] /Users/German/Documents/Repositorios/NET
 MERGED from [:react-native-reanimated] /Users/German/Documents/Repositorios/NET-Baires/NET-Baires-Mobile/node_modules/react-native-reanimated/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-11:12
 MERGED from [:react-native-safe-area-context] /Users/German/Documents/Repositorios/NET-Baires/NET-Baires-Mobile/node_modules/react-native-safe-area-context/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-9:12
 MERGED from [:react-native-screens] /Users/German/Documents/Repositorios/NET-Baires/NET-Baires-Mobile/node_modules/react-native-screens/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-11:12
+MERGED from [:react-native-share] /Users/German/Documents/Repositorios/NET-Baires/NET-Baires-Mobile/node_modules/react-native-share/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-23:12
 MERGED from [:react-native-splash-screen] /Users/German/Documents/Repositorios/NET-Baires/NET-Baires-Mobile/node_modules/react-native-splash-screen/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-14:12
 MERGED from [:react-native-svg] /Users/German/Documents/Repositorios/NET-Baires/NET-Baires-Mobile/node_modules/react-native-svg/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-9:12
 MERGED from [:react-native-vector-icons] /Users/German/Documents/Repositorios/NET-Baires/NET-Baires-Mobile/node_modules/react-native-vector-icons/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-11:12
@@ -111,12 +112,16 @@ ADDED from /Users/German/Documents/Repositorios/NET-Baires/NET-Baires-Mobile/and
 		ADDED from /Users/German/Documents/Repositorios/NET-Baires/NET-Baires-Mobile/android/app/src/main/AndroidManifest.xml:6:22-62
 uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
 ADDED from /Users/German/Documents/Repositorios/NET-Baires/NET-Baires-Mobile/android/app/src/main/AndroidManifest.xml:7:5-80
+MERGED from [:react-native-share] /Users/German/Documents/Repositorios/NET-Baires/NET-Baires-Mobile/node_modules/react-native-share/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:9:5-81
+MERGED from [:react-native-share] /Users/German/Documents/Repositorios/NET-Baires/NET-Baires-Mobile/node_modules/react-native-share/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:9:5-81
 	android:name
 		ADDED from /Users/German/Documents/Repositorios/NET-Baires/NET-Baires-Mobile/android/app/src/main/AndroidManifest.xml:7:22-78
 application
 ADDED from /Users/German/Documents/Repositorios/NET-Baires/NET-Baires-Mobile/android/app/src/main/AndroidManifest.xml:8:5-40:19
 MERGED from [:react-native-image-picker] /Users/German/Documents/Repositorios/NET-Baires/NET-Baires-Mobile/node_modules/react-native-image-picker/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:9:5-19:19
 MERGED from [:react-native-image-picker] /Users/German/Documents/Repositorios/NET-Baires/NET-Baires-Mobile/node_modules/react-native-image-picker/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:9:5-19:19
+MERGED from [:react-native-share] /Users/German/Documents/Repositorios/NET-Baires/NET-Baires-Mobile/node_modules/react-native-share/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:11:5-21:19
+MERGED from [:react-native-share] /Users/German/Documents/Repositorios/NET-Baires/NET-Baires-Mobile/node_modules/react-native-share/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:11:5-21:19
 MERGED from [:react-native-splash-screen] /Users/German/Documents/Repositorios/NET-Baires/NET-Baires-Mobile/node_modules/react-native-splash-screen/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:11:5-12:19
 MERGED from [:react-native-splash-screen] /Users/German/Documents/Repositorios/NET-Baires/NET-Baires-Mobile/node_modules/react-native-splash-screen/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:11:5-12:19
 MERGED from [com.facebook.react:react-native:0.61.5] /Users/German/.gradle/caches/transforms-2/files-2.1/b675179c962da39e07216dd0b640dcf9/jetified-react-native-0.61.5/AndroidManifest.xml:11:5-20
@@ -243,6 +248,8 @@ MERGED from [:react-native-safe-area-context] /Users/German/Documents/Repositori
 MERGED from [:react-native-safe-area-context] /Users/German/Documents/Repositorios/NET-Baires/NET-Baires-Mobile/node_modules/react-native-safe-area-context/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-7:41
 MERGED from [:react-native-screens] /Users/German/Documents/Repositorios/NET-Baires/NET-Baires-Mobile/node_modules/react-native-screens/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
 MERGED from [:react-native-screens] /Users/German/Documents/Repositorios/NET-Baires/NET-Baires-Mobile/node_modules/react-native-screens/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [:react-native-share] /Users/German/Documents/Repositorios/NET-Baires/NET-Baires-Mobile/node_modules/react-native-share/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-7:41
+MERGED from [:react-native-share] /Users/German/Documents/Repositorios/NET-Baires/NET-Baires-Mobile/node_modules/react-native-share/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-7:41
 MERGED from [:react-native-splash-screen] /Users/German/Documents/Repositorios/NET-Baires/NET-Baires-Mobile/node_modules/react-native-splash-screen/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
 MERGED from [:react-native-splash-screen] /Users/German/Documents/Repositorios/NET-Baires/NET-Baires-Mobile/node_modules/react-native-splash-screen/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
 MERGED from [:react-native-svg] /Users/German/Documents/Repositorios/NET-Baires/NET-Baires-Mobile/node_modules/react-native-svg/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-7:41
@@ -391,6 +398,16 @@ uses-permission#android.permission.ACCESS_COARSE_LOCATION
 ADDED from [:react-native-maps] /Users/German/Documents/Repositorios/NET-Baires/NET-Baires-Mobile/node_modules/react-native-maps/lib/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:10:5-81
 	android:name
 		ADDED from [:react-native-maps] /Users/German/Documents/Repositorios/NET-Baires/NET-Baires-Mobile/node_modules/react-native-maps/lib/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:10:22-78
+provider#cl.json.RNShareFileProvider
+ADDED from [:react-native-share] /Users/German/Documents/Repositorios/NET-Baires/NET-Baires-Mobile/node_modules/react-native-share/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:12:9-20:20
+	android:grantUriPermissions
+		ADDED from [:react-native-share] /Users/German/Documents/Repositorios/NET-Baires/NET-Baires-Mobile/node_modules/react-native-share/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:16:13-47
+	android:authorities
+		ADDED from [:react-native-share] /Users/German/Documents/Repositorios/NET-Baires/NET-Baires-Mobile/node_modules/react-native-share/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:14:13-72
+	android:exported
+		ADDED from [:react-native-share] /Users/German/Documents/Repositorios/NET-Baires/NET-Baires-Mobile/node_modules/react-native-share/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:15:13-37
+	android:name
+		ADDED from [:react-native-share] /Users/German/Documents/Repositorios/NET-Baires/NET-Baires-Mobile/node_modules/react-native-share/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:13:13-55
 meta-data#com.bumptech.glide.integration.okhttp3.OkHttpGlideModule
 ADDED from [com.github.bumptech.glide:okhttp3-integration:4.9.0] /Users/German/.gradle/caches/transforms-2/files-2.1/07add0b7ff700880e2191dcc56efd3b5/jetified-okhttp3-integration-4.9.0/AndroidManifest.xml:11:9-13:43
 	android:value
