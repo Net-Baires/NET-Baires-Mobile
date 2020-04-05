@@ -1,0 +1,7 @@
+#Sun Apr 05 03:14:08 ART 2020
+base.0=/Users/German/Documents/Repositorios/NET-Baires/NET-Baires-Mobile/android/app/build/intermediates/dex/debug/mergeDexDebug/out/classes.dex
+path.1=classes2.dex
+renamed.1=classes2.dex
+path.0=classes.dex
+renamed.0=classes.dex
+base.1=/Users/German/Documents/Repositorios/NET-Baires/NET-Baires-Mobile/android/app/build/intermediates/dex/debug/mergeDexDebug/out/classes2.dex
