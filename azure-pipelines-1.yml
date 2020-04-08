@@ -13,31 +13,29 @@ jobs:
 - job:
   variables:
     AppVersionCode: $[counter(format('{0:yyyyMMdd}', pipeline.startTime), 100)]
-
-steps:
-
-- task: Bash@3
-  inputs:
-    targetType: 'inline'
-    script: 'echo $(AppVersionCode)'
-    
-- task: Npm@1
-  inputs:
-    command: 'install'
-    
-- task: Bash@3
-  inputs:
-    targetType: 'inline'
-    script: 'cd Android; ./gradlew assembleRelease'
-  env:
-    MYAPP_UPLOAD_STORE_FILE: $(UploadStoreFile)
-    MYAPP_UPLOAD_STORE_PASSWORD: $(UploadStorePassword)
-    MYAPP_UPLOAD_KEY_ALIAS: $(UploadStoreKeyAlias)
-    MYAPP_UPLOAD_KEY_PASSWORD: $(UploadStoreKeyPassword)
-    MYAPP_VERSION_CODE: $(AppVersionCode)
-    MYAPP_VERSION_NAME: $(AppVersionName)
-- task: PublishBuildArtifacts@1
-  inputs:
-    PathtoPublish: '$(Build.SourcesDirectory)/android/app/build/outputs/apk'
-    ArtifactName: 'drop'
-    publishLocation: 'Container'
+  steps:
+  - task: Bash@3
+    inputs:
+      targetType: 'inline'
+      script: 'echo $(AppVersionCode)'
+      
+  - task: Npm@1
+    inputs:
+      command: 'install'
+      
+  - task: Bash@3
+    inputs:
+      targetType: 'inline'
+      script: 'cd Android; ./gradlew assembleRelease'
+    env:
+      MYAPP_UPLOAD_STORE_FILE: $(UploadStoreFile)
+      MYAPP_UPLOAD_STORE_PASSWORD: $(UploadStorePassword)
+      MYAPP_UPLOAD_KEY_ALIAS: $(UploadStoreKeyAlias)
+      MYAPP_UPLOAD_KEY_PASSWORD: $(UploadStoreKeyPassword)
+      MYAPP_VERSION_CODE: $(AppVersionCode)
+      MYAPP_VERSION_NAME: $(AppVersionName)
+  - task: PublishBuildArtifacts@1
+    inputs:
+      PathtoPublish: '$(Build.SourcesDirectory)/android/app/build/outputs/apk'
+      ArtifactName: 'drop'
+      publishLocation: 'Container'
