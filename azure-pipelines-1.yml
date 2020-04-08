@@ -1,0 +1,26 @@
+# Android
+# Build your Android project with Gradle.
+# Add steps that test, sign, and distribute the APK, save build artifacts, and more:
+# https://docs.microsoft.com/azure/devops/pipelines/languages/android
+
+trigger:
+- master
+
+pool:
+  vmImage: 'macos-latest'
+
+steps:
+- task: Npm@1
+  inputs:
+    command: 'install'
+    
+- task: Bash@3
+  inputs:
+    targetType: 'inline'
+    script: 'cd Android; ./gradlew assembleRelease'
+    
+- task: PublishBuildArtifacts@1
+  inputs:
+    PathtoPublish: '$(Build.SourcesDirectory)/android/app/build/outputs/apk'
+    ArtifactName: 'drop'
+    publishLocation: 'Container'
