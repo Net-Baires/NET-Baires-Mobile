@@ -14,11 +14,7 @@ steps:
   inputs:
     command: 'install'
     
-- task: Gradle@2
+- task: Bash@3
   inputs:
-    gradleWrapperFile: 'android/gradlew'
-    workingDirectory: 'android'
-    tasks: 'assembleRelease'
-    publishJUnitResults: false
-    javaHomeOption: 'JDKVersion'
-    sonarQubeRunAnalysis: false
+    targetType: 'inline'
+    script: 'cd Android; ./gradlew assembleRelease'
