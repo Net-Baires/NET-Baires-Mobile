@@ -18,3 +18,9 @@ steps:
   inputs:
     targetType: 'inline'
     script: 'cd Android; ./gradlew assembleRelease'
+    
+- task: PublishBuildArtifacts@1
+  inputs:
+    PathtoPublish: '$(Build.SourcesDirectory)/android/app/build/outputs/apk'
+    ArtifactName: 'drop'
+    publishLocation: 'Container'
