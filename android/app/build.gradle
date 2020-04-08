@@ -33,7 +33,7 @@ android {
         // versionCode 9
         // versionName "1.0.5"
         versionCode appVersionCode
-        versionName "1.0.0"
+        versionName System.getenv('MYAPP_VERSION_NAME') 
         
     }
 
