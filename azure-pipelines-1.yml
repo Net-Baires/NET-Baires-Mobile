@@ -18,7 +18,7 @@ steps:
   inputs:
     gradleWrapperFile: 'android/gradlew'
     workingDirectory: 'android'
-    tasks: 'build'
+    tasks: 'assembleRelease'
     publishJUnitResults: false
     javaHomeOption: 'JDKVersion'
     sonarQubeRunAnalysis: false
