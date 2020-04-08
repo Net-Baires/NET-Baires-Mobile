@@ -10,6 +10,19 @@ buildscript {
         googlePlayServicesVersion = "16.1.0"
         androidMapsUtilsVersion = "0.5+"
     }
+     signingConfigs {
+        release {
+            // We can leave these in environment variables
+            storeFile file(System.getenv("KEYSTORE"))
+            keyAlias System.getenv("KEY_ALIAS")
+
+            // These two lines make gradle believe that the signingConfigs
+            // section is complete. Without them, tasks like installRelease
+            // will not be available!
+            storePassword System.getenv("STORE_PASSWORD")
+            keyPassword System.getenv("STORE_PASSWORD")
+        }
+    }
     repositories {
         google()
         jcenter()
