@@ -30,8 +30,11 @@ android {
         resValue "string", "build_config_package", "com.netbaires"
         minSdkVersion rootProject.ext.minSdkVersion
         targetSdkVersion rootProject.ext.targetSdkVersion
-        versionCode 9
-        versionName "1.0.5"
+        // versionCode 9
+        // versionName "1.0.5"
+        versionCode System.getenv('MYAPP_VERSION_CODE')
+        versionName "1.0.0"
+        
     }
 
     signingConfigs {
