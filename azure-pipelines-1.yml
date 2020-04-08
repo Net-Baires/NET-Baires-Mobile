@@ -10,11 +10,15 @@ pool:
   vmImage: 'macos-latest'
 
 steps:
-    - task: Gradle@2
-      inputs:
-        gradleWrapperFile: 'android/gradlew'
-        workingDirectory: 'android'
-        tasks: 'build'
-        publishJUnitResults: false
-        javaHomeOption: 'JDKVersion'
-        sonarQubeRunAnalysis: false
+- task: Npm@1
+  inputs:
+    command: 'install'
+    
+- task: Gradle@2
+  inputs:
+    gradleWrapperFile: 'android/gradlew'
+    workingDirectory: 'android'
+    tasks: 'build'
+    publishJUnitResults: false
+    javaHomeOption: 'JDKVersion'
+    sonarQubeRunAnalysis: false
