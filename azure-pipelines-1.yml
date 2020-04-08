@@ -13,6 +13,11 @@ steps:
 - task: Npm@1
   inputs:
     command: 'install'
+
+- task: versioncounter@1
+  inputs:
+    VersionVariable: 'AppVersionCode'
+    DevOpsPat: 'qctbjio522fzbildnlh7aeysgafvkzpiqnjeyd5hgxv2rmm47dxa'
     
 - task: Bash@3
   inputs:
@@ -23,7 +28,7 @@ steps:
     MYAPP_UPLOAD_STORE_PASSWORD: $(UploadStorePassword)
     MYAPP_UPLOAD_KEY_ALIAS: $(UploadStoreKeyAlias)
     MYAPP_UPLOAD_KEY_PASSWORD: $(UploadStoreKeyPassword)
-    MYAPP_VERSION_CODE: $(Build.BuildNumber)
+    MYAPP_VERSION_CODE: $(AppVersionCode)
     MYAPP_VERSION_NAME: $(AppVersionName)
 - task: PublishBuildArtifacts@1
   inputs:
