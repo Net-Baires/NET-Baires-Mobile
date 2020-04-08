@@ -12,7 +12,7 @@ pool:
 steps:
     - task: Gradle@2
       inputs:
-        gradleWrapperFile: 'gradlew'
+        gradleWrapperFile: 'android/gradlew'
         workingDirectory: 'android'
         tasks: 'build'
         publishJUnitResults: false
