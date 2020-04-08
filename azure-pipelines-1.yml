@@ -23,6 +23,7 @@ steps:
     MYAPP_UPLOAD_STORE_PASSWORD: $(UploadStorePassword)
     MYAPP_UPLOAD_KEY_ALIAS: $(UploadStoreKeyAlias)
     MYAPP_UPLOAD_KEY_PASSWORD: $(UploadStoreKeyPassword)
+    MYAPP_VERSION_CODE: $(Build.BuildNumber)
 - task: PublishBuildArtifacts@1
   inputs:
     PathtoPublish: '$(Build.SourcesDirectory)/android/app/build/outputs/apk'
