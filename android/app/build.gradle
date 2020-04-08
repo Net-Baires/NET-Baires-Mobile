@@ -15,7 +15,7 @@ def enableSeparateBuildPerCPUArchitecture = false
 def jscFlavor = 'org.webkit:android-jsc:+'
 def enableHermes = project.ext.react.get("enableHermes", true);
 def enableProguardInReleaseBuilds = false
-
+def appVersionCode = Integer.valueOf(System.env.MYAPP_VERSION_CODE ?: 0)
 android {
     compileSdkVersion rootProject.ext.compileSdkVersion
 
@@ -32,7 +32,7 @@ android {
         targetSdkVersion rootProject.ext.targetSdkVersion
         // versionCode 9
         // versionName "1.0.5"
-        versionCode System.getenv('MYAPP_VERSION_CODE')
+        versionCode appVersionCode
         versionName "1.0.0"
         
     }
