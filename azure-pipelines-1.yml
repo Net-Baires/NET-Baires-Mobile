@@ -14,7 +14,7 @@ steps:
   inputs:
     workingDirectory: ''
     gradleWrapperFile: 'android/gradlew'
-    gradleOptions: '-Xmx3072m -p android clean :'
+    gradleOptions: '-Xmx3072m'
     publishJUnitResults: false
     testResultsFiles: '**/TEST-*.xml'
     tasks: 'app:assembleRelease'
